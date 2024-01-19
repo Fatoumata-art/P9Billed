@@ -50,31 +50,6 @@ describe("Given I am connected as an employee", () => {
 // my test
 describe("Given that I am an employee on BillsUI", () => {
   describe("When I click on new bill button", () => {
-      // test("Then it should render NewBill page", () => {
-      //     const onNavigate = (pathname) => {
-      //         document.body.innerHTML = ROUTES({ pathname })
-      //     }
-      //     const root = document.createElement("div")
-      //     root.setAttribute("id", "root")
-      //     document.body.append(root)
-      //     router()
-      //     Object.defineProperty(window, 'localStorage', { value: localStorageMock })
-      //     window.localStorage.setItem('user', JSON.stringify({
-      //         type: 'Employee'
-      //     }))
-      //     document.body.innerHTML = BillsUI({data : bills})
-      //     const myBills = new Bills({ document, onNavigate, store: null, localStorage: window.localStorage })
-      //     const handleClickNewBill = jest.fn(myBills.handleClickNewBill)
-
-      //     const buttonNewBill = screen.getByTestId("btn-new-bill")
-
-      //     buttonNewBill.addEventListener("click", handleClickNewBill())
-      //     userEvent.click(buttonNewBill)
-      //     expect(handleClickNewBill).toHaveBeenCalled()
-      //     expect(screen.getByTestId("form-new-bill")).toBeTruthy()
-      //     expect(screen.getByText('Envoyer une note de frais')).toBeTruthy()
-      // })
-
       test("Then it should render NewBill page", () => {
         const onNavigate = (pathname) => {
         document.body.innerHTML = ROUTES({ pathname })
